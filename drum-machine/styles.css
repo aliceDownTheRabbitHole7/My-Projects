@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+:root {
+  --display-color-a: rgba(242, 172, 250, 0.9);
+  --display-color-b: rgba(189, 119, 196, 0.9);
+  --background-shade: rgba(7, 7, 7, 0.8);
+}
+
+/* Background */
+
+html {
+  height: 100vh;
+}
+body {
+  background-image:  
+    linear-gradient(
+      to right,
+      var(--background-shade),
+      var(--background-shade)
+    ),
+    url(
+"https://static.vecteezy.com/system/resources/thumbnails/002/007/957/original/white-music-note-background-free-video.jpg"
+    );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Display */
+
+.container {
+  background-image: linear-gradient(
+    to left,
+    var(--display-color-a),
+    var(--display-color-b)
+  );
+  border-radius: 10px;
+}
+
+/* Font */
+
+#name-text, #vol-percent {
+  font-family: 'Rubik Dirt', cursive;
+}
+
+/* Buttons */
+
+.btn-primary {
+  height: 3rem;
+}
+

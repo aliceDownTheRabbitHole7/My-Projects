@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&display=swap');
+
+:root {
+    --shadow-pink: rgba(80, 1, 45, 0.7);
+    --bg-pink-a: rgba(235, 48, 145, 0.6);
+    --bg-pink-b: rgba(235, 48, 145, 0.2);
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+
+    background-image: 
+        linear-gradient(
+            120deg,
+            var(--bg-pink-a),
+            var(--bg-pink-b)
+        ),
+        url(https://img.freepik.com/free-vector/cherry-blossom-frame-card_53876-93701.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: ivory;
+}
+
+#buttons, #calc-display, #equals {
+    display: flex;
+    justify-content: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+#calc {
+    max-width: 30rem;
+}
+
+#display {
+    border-radius: 0.5rem;
+}
+
+a, #display {
+    box-shadow: 0 0 1rem 6px var(--shadow-pink);   
+}

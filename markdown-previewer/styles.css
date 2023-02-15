@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+:root {
+    --preview-text-box: rgb(236, 235, 179);
+    --preview-box-shadow: rgba(82, 82, 1, 0.7);
+    --input-box-shadow: rgba(0, 35, 79, 0.7);
+    --header-gray: rgba(80, 80, 80, 1);
+}
+#header, #previewer-header, #editor-header {
+    font-family: 'Shrikhand', cursive;
+}
+#header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--header-gray);
+}
+textarea {
+    box-shadow: 0 0 1rem 0.5rem var(--input-box-shadow);
+}
+#preview {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: var(--preview-text-box);
+    box-shadow: 0 0 1rem 0.5rem var(--preview-box-shadow);
+}
+#content {
+    height: 94vh;
+}

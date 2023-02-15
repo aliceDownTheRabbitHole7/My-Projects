@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400&display=swap');
+
+body {
+  color: white;
+  background-color: #333;
+  font-family: 'Goldman', cursive;
+}
+.time-sets {
+  display: grid;
+  grid-template-columns: 50px 200px 50px;
+  justify-items: center;
+  align-items: center;
+}
+.dual-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1200px;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+}
+

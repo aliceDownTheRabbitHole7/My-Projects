@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --background-color: rgba(11, 59, 24, 0.6);
+    --clear: rgba(0, 0, 0, 0);
+    --border-color: rgba(14, 251, 26, 0.5);
+    --text-box-color: rgba(178, 244, 181, 0.9);
+    --font-color: rgba(27, 201, 33, 0.8);
+}
+html, body {
+    height: 100vh;
+}
+body {
+    background-image: 
+        linear-gradient(
+            to bottom right,
+            var(--clear),
+            var(--background-color)
+        ),
+        url(
+            "https://media.istockphoto.com/id/1038776952/photo/thinking-man-statue.jpg?s=612x612&w=0&k=20&c=TXyq8zyxwkBSDEhk73Cxtmti-JB2K5tFC59z1gIly6E="
+            );     
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+#container {
+    background-color: var(--text-box-color);
+    color: var(--font-color);
+
+    border: 0.5rem solid var(--border-color);
+    border-radius: 1rem;
+    max-width: 40rem;
+}
+#text, #author {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
